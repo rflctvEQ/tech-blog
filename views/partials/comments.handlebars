@@ -1,0 +1,14 @@
+<div class='comment-section'>
+  <div style="border-bottom: 2px solid gray; margin-top: 50px">
+    <h2>Comments</h2>
+  </div>
+
+  {{!-- {{log 'handlebars this' this}}
+  {{log 'handlebars partial comments' comments}} --}}
+  {{#each this}}
+  <div class="">
+    <h4>{{user.name}} at {{format_date date_created}}:</h4>
+    <p class="formatted-post">{{content}}</p>
+  </div>
+  {{/each}}
+</div>

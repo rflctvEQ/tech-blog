@@ -1,0 +1,22 @@
+<div class="text-center">
+  <h2>{{name}}</h2>
+  <p class="formatted-post">{{post}}</p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+
+  <div class="form-group">
+    <label for="add-comment">Add a comment:</label>
+    <br>
+    <textarea class="form-input" id="comment-desc" name="comment-desc"></textarea>
+  </div>
+  <p>
+    <button class="btn btn-primary comment-btn" id="comment-btn">Leave a comment!</button>
+  </p>
+
+  {{!-- TODO: add functionality for deleting and updating posts if they are the logged in user's post --}}
+</div>
+
+{{!-- {{log 'comments' comments}} --}}
+<div>
+  {{> comments comments}}
+</div>
+

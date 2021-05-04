@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Test Blog Post",
+    "post": "This is a test blog. It has a some text, but hopefully enough to show off the functionality of both the frontend capability and the capability of the database. So I'm just going to continue typing things. Earlier, I had had miso with bok choy and kale. I have some leftover bok choy and kale, so the question is whether I just eat that later or if I try to make it into a bigger, more filling dish. I bet I've typed enough at this point. Thanks for attending my rant. :)",
+    "date_created": "01/19/2021",
+    "user_id": 3,
+    "post_id": 1
+  }
+]
