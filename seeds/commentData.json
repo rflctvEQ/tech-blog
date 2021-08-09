@@ -1,8 +1,14 @@
 [
     {
-      "content": "This is a comment I've made on this post!",
+      "content": "Wow! It seems like React is a useful tool! Maybe I should look into it...",
       "date_created": "04/29/2021",
       "user_id": 3, 
+      "post_id": 1
+    },
+    {
+      "content": "I love React! I made a couple apps using React before I landed my first junior-level position. Once I got the hang of the MERN stack (with MySQL of course), I never wanted to touch another stack!",
+      "date_created": "04/30/2021",
+      "user_id": 2,
       "post_id": 1
     }
   ]

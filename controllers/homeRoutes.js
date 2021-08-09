@@ -28,7 +28,6 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-
 });
 
 router.get('/blog/:id', async (req, res) => {
@@ -48,7 +47,7 @@ router.get('/blog/:id', async (req, res) => {
             attributes: ['name']
           }
         }
-      ],
+      ]
     });
     // debugger
     const blogPost = blogPostData.get({ plain: true });

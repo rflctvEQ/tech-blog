@@ -1,9 +1,9 @@
-<div class="text-center">
+<div class="text-center post-wrapper">
   <h2>{{name}}</h2>
+  <p class="created-by">Created by {{user.name}} on {{format_date date_created}}</p>
   <p class="formatted-post">{{post}}</p>
-  <p>Created by {{user.name}} on {{format_date date_created}}</p>
 
-  <div class="form-group">
+  <div class="form-group comment-wrapper">
     <label for="add-comment">Add a comment:</label>
     <br>
     <textarea class="form-input" id="comment-desc" name="comment-desc"></textarea>

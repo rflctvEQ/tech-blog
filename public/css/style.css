@@ -1,3 +1,13 @@
+:root {
+  --purple-btn: rgb(94, 83, 165);
+  --purple-hover: rgb(78, 69, 133);
+}
+
+::selection {
+  background-color: var(--purple-btn);
+  color: white;
+}
+
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
@@ -21,4 +31,113 @@ header, .project:not(:last-child) {
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
+}
+
+body {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+p {
+  white-space: pre-line;
+}
+
+span {
+  color: white !important;
+}
+
+.tech-blog-title {
+  /* margin-left: 2rem; */
+}
+
+
+
+/* TODO: squeeze everything about 2-6rem on either side of each page. MORE MARGINS! */
+/* TODO: add modals for UX */
+
+/** Homepage */
+.project {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+/** Login/Sign-up Page */
+.login-btn, .signup-btn {
+  background-color: var(--purple-btn) !important;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: var(--purple-hover) !important;
+}
+
+/** Profile */
+.create-btn, .update-btn {
+  background-color: var(--purple-btn) !important;
+}
+
+.create-btn:hover, .update-btn:hover {
+  background-color: var(--purple-hover) !important;
+}
+
+#project-desc {
+  min-height: 400px;
+}
+
+/** Blog Post with Comments */
+.post-wrapper {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.created-by {
+  color: #1b89bc;
+  font-size: 15px;
+  margin-bottom: 2.5rem;
+}
+
+.formatted-post {
+  text-align: start;
+}
+
+.comment-wrapper {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+#comment-desc {
+  margin-top: 1rem;
+  min-width: 400px;
+  min-height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.comment-btn {
+  /* border: 1px solid white; */
+  background-color: var(--purple-btn) !important;
+}
+
+.comment-btn:hover {
+  background-color:var(--purple-hover) !important;
+}
+
+.post-comments-wrapper {
+  margin: 0 4rem;
+}
+
+.comments-title {
+  border-bottom: 2px solid gray; 
+  margin-top: 50px
+}
+
+.comment {
+  margin: 2rem 0;
+}
+
+.comment-by {
+  color: #1b89bc;
+  font-size: 23px;
 }
